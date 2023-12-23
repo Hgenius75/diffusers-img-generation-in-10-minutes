@@ -45,18 +45,6 @@ Launching the DAVM server can be done in just a few steps:
 2. Select the ru-7a pool and create a cloud server with the Ubuntu 20.04 LTS Data Analytics 64-bit distribution and the required configuration.
 
    
-<p align="center">
-  <a href="https://habrastorage.org/webt/9n/qi/8f/9nqi8fm_uijvuqodkyzg6l32q4m.gif">
-    <img alt="Choosing the Distribution for Data Analytics Virtual Machine" src="https://habrastorage.org/webt/9n/qi/8f/9nqi8fm_uijvuqodkyzg6l32q4m.gif">
-  </a>
-</p>
-
-<p align="center">
-  <i>Choosing the Distribution for Data Analytics Virtual Machine.</i>
-</p>
-
-
-
 > *It's crucial for the server to be accessible from the internet; otherwise, it won't be possible to connect from your computer. During the configuration setup, make sure to select a new public IP address.*
 
 Allow the system a couple of minutes to boot. After that, connect to the server via SSH. You will find the credentials for accessing the DAVM environment in the console.

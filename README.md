@@ -91,14 +91,14 @@ Note: It's not necessary to pre-update the pip package manager; everything is al
 
 **Loading the Model and Preparing the Pipeline**
 
-Next, we'll import modules and load the model for dinosaur generation — for example, dreamlike-art/dreamlike-diffusion-1.0. This can be done by specifying the model_id, a variable-link to the model on Hugging Face, and using the StableDiffusionPipeline.from_pretrained() method, which will essentially prepare the pipeline:
+Next, we'll import modules and load the model for dinosaur generation — for example, [dreamlike-art/dreamlike-diffusion-1.0](https://huggingface.co/dreamlike-art/dreamlike-diffusion-1.0). This can be done by specifying the model_id, a variable-link to the model on Hugging Face, and using the StableDiffusionPipeline.from_pretrained() method, which will essentially prepare the pipeline:
 
 ```
 model_id = "dreamlike-art/dreamlike-diffusion-1.0"
 pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float16)
 ```
 
-**Small clarification:** You can use any generative model from the list. For instance, if you want an image in the style of Midjourney, load prompthero/openjourney. You can view the gallery of each model on Civitai and in the official library.
+**Small clarification:** You can use any generative model from the list. For instance, if you want an image in the style of Midjourney, load [prompthero/openjourney](https://huggingface.co/prompthero/openjourney). You can view the gallery of each model on Civitai and in the [official library](https://huggingface.co/models?library=diffusers).
 
 Great — you've chosen and loaded the model into the pipeline. Next, specify on which cores — CPU or GPU — you want to generate images. This can be done using the pipe.to() method. If you are using a server with a GPU, it should be pipe.to("cuda"), and if only CPU power is available, use pipe.to("cpu").
 

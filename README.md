@@ -149,3 +149,12 @@ And here's a couple more dinosaurs playing chess:
 <p align="center">
   <img src="https://habrastorage.org/r/w1560/webt/_o/jc/s7/_ojcs7_p47fb9apx-angkqeilte.png">
 </p>
+<p align="center">
+  <img src="https://habrastorage.org/r/w1560/webt/v0/ne/u1/v0neu16aas4gvnuinbrhhaluziy.png">
+</p>
+<p align="center">
+  <img src="https://habrastorage.org/r/w1560/webt/re/bl/q2/reblq29prhhzlmlhgy49z2k9a1i.png">
+</p>
+<p align="center">
+  <img src="https://habrastorage.org/r/w1560/webt/ae/pr/tt/aeprtttnljtwbolh3bitw5p0umk.png">
+</p>
